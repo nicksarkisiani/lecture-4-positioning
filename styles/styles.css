@@ -1,0 +1,66 @@
+body {
+    height: 1500vh;
+}
+
+.red-box {
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.yellow-box {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+
+}
+
+.image-text {
+    position: relative;
+    width: 1000px;
+}
+
+.image-text img {
+    width: 100%;
+}
+
+.text-img {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.header {
+    width: 100%;
+    height: 70px;
+    background-color: aqua;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+
+.gray-box {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    position: sticky;
+    top: 250px;
+    left: 650px;
+}
+
+/* position: relative, absolute, fixed, sticky, static */
+
+
